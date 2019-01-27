@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Staatliches" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder Survey</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div>
+            <h1 class="header">SURVEY QUESTIONS</h1>
+            <hr>
+            <h2>About You</h2>
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Name (Required)</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First Name" required>
+                </div>
+                <!-- change below to process links -->
+                <div class="form-group">
+                    <label for="formGroupExampleInput2">Link to Photo (Required)</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Link to Image" required>
+                </div>
+            </form>   
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="dropdown">
+                        <h2>Question 1</h2>
+                        <p class= "txt">You prefer to go out than stay in</p id="q1">
+                        <select class="form-control chosen dropbox" data-placeholder="Choose an option">
+                            <option value=""></option>
+                            <option value ="1" >1 (Stongly disagree)</option>
+                            <option value ="2" >2</option>
+                            <option value ="3" >3</option>
+                            <option value ="4" >4</option>
+                            <option value ="5" >5 (Strongly agree)</option>
+                        </select>
+                    </div>
+            
+                    <div class="dropdown">
+                        <h2>Question 2</h2>
+                        <p class= "txt">Experiencing new things is one of your favorite things to do</p id="q2">
+                        <select class="form-control chosen dropbox" data-placeholder="Choose an option">
+                            <option value=""></option>
+                            <option value ="1" >1 (Stongly disagree)</option>
+                            <option value ="2" >2</option>
+                            <option value ="3" >3</option>
+                            <option value ="4" >4</option>
+                            <option value ="5" >5 (Strongly agree)</option>
+                        </select>
+                    </div>
+            
+                        <div class="dropdown">
+                            <h2>Question 3</h2>
+                            <p class= "txt">You'd rather arrive early than late</p id="q3">
+                            <select class="form-control chosen dropbox" data-placeholder="Choose an option">
+                                <option value=""></option>
+                                <option value ="1" >1 (Stongly disagree)</option>
+                                <option value ="2" >2</option>
+                                <option value ="3" >3</option>
+                                <option value ="4" >4</option>
+                                <option value ="5" >5 (Strongly agree)</option>
+                            </select>
+                        </div>
+            
+                        <div class="dropdown">
+                            <h2>Question 4</h2>
+                            <p class= "txt">Saving is important</p id="q4">
+                            <select class="form-control chosen dropbox" data-placeholder="Choose an option">
+                                <option value=""></option>
+                                <option value ="1" >1 (Stongly disagree)</option>
+                                <option value ="2" >2</option>
+                                <option value ="3" >3</option>
+                                <option value ="4" >4</option>
+                                <option value ="5" >5 (Strongly agree)</option>
+                            </select>
+                        </div>
+            
+                        <div class="dropdown">
+                            <h2>Question 5</h2>
+                            <p class= "txt">Politics and friends get in the way of your moral choices</p id=q5>
+                            <select class="form-control chosen dropbox" data-placeholder="Choose an option">
+                                <option value=""></option>
+                                <option value ="1" >1 (Stongly disagree)</option>
+                                <option value ="2" >2</option>
+                                <option value ="3" >3</option>
+                                <option value ="4" >4</option>
+                                <option value ="5" >5 (Strongly agree)</option>
+                            </select>
+                        </div>
+            
+                        <div class="dropdown">
+                                <h2>Question 6</h2>
+                                <p class= "txt">Listening to people’s problems is not easy</p id="q6">
+                                <select class="form-control chosen dropbox" data-placeholder="Choose an option">
+                                    <option value=""></option>
+                                    <option value ="1" >1 (Stongly disagree)</option>
+                                    <option value ="2" >2</option>
+                                    <option value ="3" >3</option>
+                                    <option value ="4" >4</option>
+                                    <option value ="5" >5 (Strongly agree)</option>
+                                </select>
+                            </div>
+                    
+                            <div class="dropdown">
+                                <h2>Question 7</h2>
+                                <p class= "txt">You'd associate yourself as a night owl</p id="q7">
+                                <select class="form-control chosen dropbox" data-placeholder="Choose an option">
+                                    <option value=""></option>
+                                    <option value ="1" >1 (Stongly disagree)</option>
+                                    <option value ="2" >2</option>
+                                    <option value ="3" >3</option>
+                                    <option value ="4" >4</option>
+                                    <option value ="5" >5 (Strongly agree)</option>
+                                </select>
+                            </div>
+                    
+                            <div class="dropdown">
+                                <h2>Question 8</h2>
+                                <p class= "txt">Organization is important to you</p id="q8">
+                                <select class="form-control chosen dropbox" data-placeholder="Choose an option">
+                                    <option value=""></option>
+                                    <option value ="1" >1 (Stongly disagree)</option>
+                                    <option value ="2" >2</option>
+                                    <option value ="3" >3</option>
+                                    <option value ="4" >4</option>
+                                    <option value ="5" >5 (Strongly agree)</option>
+                                </select>
+                            </div>
+                
+                            <div class="dropdown">
+                                <h2>Question 9</h2>
+                                <p class= "txt">When in a group of people you're considered the quiet one</p id="q9">
+                                <select class="form-control chosen dropbox" data-placeholder="Choose an option">
+                                    <option value=""></option>
+                                    <option value ="1" >1 (Stongly disagree)</option>
+                                    <option value ="2" >2</option>
+                                    <option value ="3" >3</option>
+                                    <option value ="4" >4</option>
+                                    <option value ="5" >5 (Strongly agree)</option>
+                                </select>
+                            </div>
+                
+                            <div class="dropdown">
+                                <h2>Question 10</h2>
+                                <p class= "txt">You are more right brain than left</p id="q10">
+                                <select class="form-control chosen dropbox" data-placeholder="Choose an option">
+                                    <option value=""></option>
+                                    <option value ="1" >1 (Stongly disagree)</option>
+                                    <option value ="2" >2</option>
+                                    <option value ="3" >3</option>
+                                    <option value ="4" >4</option>
+                                    <option value ="5" >5 (Strongly agree)</option>
+                                </select>
+                            </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-info btn-lg" id="button" data-toggle="modal" data-target="#myModal">Submit</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="myModal">Your Friend Match</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h2 id="friendName"></h2>
+                        <img id="friendPhoto" src="#">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a> | <a href=""></a>Github Repo</a>
+            </div>
+        </footer>
+
+    </div>
+    
+    <script type="text/javascript" src="../public/logic.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+.container {
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.header {
+    margin-top: 3rem;
+}
+
+.dropbox {
+    width: 25%;
+}
+
+.question {
+    
+}
+
+.txt {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
