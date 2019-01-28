@@ -3,30 +3,24 @@
       $("#myModal").modal("show");      
    
     // Validate survey questions
-    // function validateSurvey() {
-    //   var valid = true;
 
-    //   var name = $("#name").val();
-    //   if(name === "") {
-    //     valid = false;
-    //   };
+    function validateSurvey() {
+      var isValid = true;
+      $(".form-control").each(function() {
+        if ($(this).val() === "") {
+          isValid = false;
+        }
+      });
 
-    //   var regx = /(http|https):\/\/(\w+:{0,1}\w*)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%!\-\/]))?/;
-    //   var photoUrl = $("#photo").val();
-    //   if((!regx.test(photoUrl))) {
-    //     valid = false;
-    //   };
+      $(".chosen-select").each(function() {
 
-    //   $(".validate").each(function() {
-    //     console.log($(this).val());
-    //     if($(this).val() === "") {
-    //       valid = false;
-    //     };
-    //   });
-    //   return valid;
-    // };
-
-    // if (validateSurvey() === true) {
+        if ($(this).val() === "") {
+          isValid = false;
+        }
+      });
+      return isValid;
+    }
+    if (validateSurvey() === true) {
       
       var surveyInput = {
         name: $("#name").val(),
@@ -51,7 +45,7 @@
         $("#friendPhoto").attr("src", data.photo);
         $("#myModal").modal("toggle")
       })
-    // } else {
-    //     alert("Please fill out all the survey questions");
-    // } return false;
+    } else {
+        alert("Please fill out all the survey questions");
+    } return false;
   });
