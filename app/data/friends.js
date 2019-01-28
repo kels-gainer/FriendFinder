@@ -1,7 +1,7 @@
 var friendArray = [
     {
         "name" : "Ava",
-        "photo" : "",
+        "photo" : "https://i-h1.pinimg.com/564x/17/1e/eb/171eeb86a7423e3c40c73b71e19062f0.jpg",
         "scores" : [
             4,
             4,
@@ -17,7 +17,7 @@ var friendArray = [
     },
     {
         "name" : "Jake",
-        "photo" : "",
+        "photo" : "https://i-h1.pinimg.com/564x/64/fb/d8/64fbd8c347986801cd0a305036fe933d.jpg",
         "scores" : [
             3,
             2,
@@ -32,7 +32,7 @@ var friendArray = [
     },
     {
         "name" : "Olivia",
-        "photo" : "",
+        "photo" : "https://i-h1.pinimg.com/564x/74/80/a4/7480a43d965f11bb332529bf12352b47.jpg",
         "scores" : [
             1,
             3,
