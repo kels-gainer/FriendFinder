@@ -1,4 +1,4 @@
-var friendData = require("../data/friends.js")
+var friendData = require("../app/data/friends")
 
 module.exports = function(app) {
     
