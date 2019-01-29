@@ -12,7 +12,7 @@
         }
       });
 
-      $(".chosen-select").each(function() {
+      $("").each(function() {
 
         if ($(this).val() === "") {
           isValid = false;
