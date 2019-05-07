@@ -1,5 +1,7 @@
 FRIEND FINDER
 
+(Add images)
+
 Using this app users can match up with like minded people to befriend by taking a simple survey.
 
 At first the home screen will display a welcome and a button to begin the survey.
